@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <turiknox_urlrewriteimporter before="Mage_Adminhtml">Turiknox_Urlrewriteimporter_Adminhtml</turiknox_urlrewriteimporter>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <events>
+            <adminhtml_widget_container_html_before>
+                <observers>
+                    <turiknox_urlrewriteimporter>
+                        <type>singleton</type>
+                        <class>turiknox_urlrewriteimporter/observer</class>
+                        <method>injectImportUrlRewritesButton</method>
+                    </turiknox_urlrewriteimporter>
+                </observers>
+            </adminhtml_widget_container_html_before>
+        </events>
+    </adminhtml>
+    <global>
+        <blocks>
+            <turiknox_urlrewriteimporter>
+                <class>Turiknox_Urlrewriteimporter_Block</class>
+            </turiknox_urlrewriteimporter>
+        </blocks>
+        <models>
+            <turiknox_urlrewriteimporter>
+                <class>Turiknox_Urlrewriteimporter_Model</class>
+            </turiknox_urlrewriteimporter>
+        </models>
+    </global>
+</config>

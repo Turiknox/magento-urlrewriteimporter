@@ -1,0 +1,10 @@
+{
+    "name": "turiknox/magento-urlrewriteimporter",
+    "type": "magento-module",
+    "license": "MIT",
+    "description": "A simple Magento module that will allow you to import custom URL rewrites into the admin using a CSV file.",
+    "homepage": "https://github.com/turiknox/magento-urlrewriteimporter",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    } 
+}

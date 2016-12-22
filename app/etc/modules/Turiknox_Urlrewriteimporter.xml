@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Turiknox_Urlrewriteimporter>
+            <codePool>local</codePool>
+            <active>true</active>
+            <depends>
+                <Mage_Adminhtml />
+            </depends>
+        </Turiknox_Urlrewriteimporter>
+    </modules>
+</config>
