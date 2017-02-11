@@ -1,4 +1,13 @@
 <?php
+/*
+ * Turiknox_Urlrewriteimporter
+
+ * @category   Turiknox
+ * @package    Turiknox_Urlrewriteimporter
+ * @copyright  Copyright (c) 2017 Turiknox
+ * @license    https://github.com/Turiknox/magento-urlrewriteimporter/blob/master/LICENSE.md
+ * @version    1.0.1
+ */
 require_once Mage::getModuleDir('controllers', 'Mage_Adminhtml') . DS . 'UrlrewriteController.php';
 class Turiknox_Urlrewriteimporter_Adminhtml_UrlRewriteController extends Mage_Adminhtml_UrlrewriteController
 {
