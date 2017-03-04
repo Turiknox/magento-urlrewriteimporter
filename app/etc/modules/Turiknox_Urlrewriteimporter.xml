@@ -13,7 +13,7 @@
 <config>
     <modules>
         <Turiknox_Urlrewriteimporter>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
             <active>true</active>
             <depends>
                 <Mage_Adminhtml />
